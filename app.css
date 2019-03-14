@@ -1,0 +1,48 @@
+body {
+    background-image: url("https://www.bureau-ice.com/wp-content/uploads/2017/11/background-site.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#title {
+    margin-top: 20px;
+}
+#top-page {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 4px black;
+    padding: 30px 0 40px 0;
+}
+.form-pass {
+    margin-top: 50px;
+    padding: 40px 0 40px 0;
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 4px black;
+}
+#returned-password {
+    width: 53%;
+}
+#addon-wrapping, #addon-copy {
+    cursor: pointer;
+}
+nav {
+    box-shadow: 0 0 4px black;
+}
+.popup {
+    position: absolute;
+    top:40px;
+    margin-left: -35px;
+    padding:10px;
+    border-radius:3px;
+    box-shadow:0 1px 5px;
+    transform:scale(0) rotate(-20deg);
+    transition-duration: 0.3s;
+}
+#addon-copy:hover span, #addon-wrapping:hover span {
+    background-color: white;
+    transform:scale(1) rotate(0);
+    transition-duration: 0.3s;
+}
